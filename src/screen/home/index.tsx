@@ -146,7 +146,7 @@ export function Home() {
             render={({ field: { onChange, value } }) => (
               <TextInput
                 onChangeText={onChange}
-                value={gradesText}
+                value={value}
                 placeholder="Escreva uma nota"
                 placeholderTextColor="#71717A"
                 multiline
